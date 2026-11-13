@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin.html
+Disallow: /admin-setup/
+
+Sitemap: https://akshaidev69.github.io/anmolgupta.github.io/sitemap.xml
