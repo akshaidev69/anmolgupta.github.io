@@ -1,6 +1,6 @@
 (function(){
   var C=window.SITE||{};
-  var WA='https://wa.me/919582747027';
+  var WA='https://wa.me/917838738873';
   function track(name,params){try{if(typeof gtag==='function')gtag('event',name,params||{});if(window.clarity)clarity('event',name);}catch(e){}}
 
   // nav
@@ -96,7 +96,7 @@
     lf.addEventListener('submit',function(e){e.preventDefault();if(!lf.reportValidity())return;var d=toObj(lf);
       sendLead(d,'popup');track('popup_lead',{service:d.service,page:location.pathname});track('generate_lead',{form:'popup'});
       window.open(WA+'?text='+encodeURIComponent(waText(d)),'_blank','noopener');
-      lf.innerHTML='<div class="lp-done"><h3>Thank you! 🎉</h3><p>WhatsApp should open with your details. If it did not, message me at <a class="inl" href="'+WA+'">+91 95827 47027</a>.</p></div>';
+      lf.innerHTML='<div class="lp-done"><h3>Thank you! 🎉</h3><p>WhatsApp should open with your details. If it did not, message me at <a class="inl" href="'+WA+'">+91 78387 38873</a>.</p></div>';
       setTimeout(close,4000);});
   }
   var y=document.getElementById('yr');if(y)y.textContent=new Date().getFullYear();
