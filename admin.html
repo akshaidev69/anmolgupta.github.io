@@ -1,5 +1,5 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Admin · Aksh</title><meta name="robots" content="noindex,nofollow,noarchive"><meta name="googlebot" content="noindex,nofollow">
+<title>Admin | Anmol Gupta</title><meta name="robots" content="noindex,nofollow,noarchive"><meta name="googlebot" content="noindex,nofollow">
 <link rel="icon" href="images/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png"><link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
@@ -31,12 +31,12 @@ iframe{width:100%;height:78vh;border:1px solid var(--line);border-radius:16px;ba
 </style></head><body>
 <div class="wrap">
 <div id="login" class="login" hidden>
-<a class="brand" href="index.html"><img src="images/logo.svg" alt="" width="36" height="36"><span>Aksh<small>Admin</small></span></a>
+<a class="brand" href="index.html"><img src="images/logo.svg" alt="" width="36" height="36"><span>Anmol Gupta<small>Admin</small></span></a>
 <h1>Admin login</h1><p>Enter your admin token. It is kept only in this browser tab (sessionStorage) and never stored in the website code.</p>
 <form id="lf"><input id="tok" type="password" autocomplete="current-password" placeholder="Admin token" required><button class="btn btn-primary" style="width:100%">Sign in</button><div id="lerr" class="err"></div></form>
 <p class="note" id="cfgnote"></p></div>
 <div id="app" hidden>
-<div class="top"><a class="brand" href="index.html"><img src="images/logo.svg" alt="" width="36" height="36"><span>Aksh<small>Admin dashboard</small></span></a>
+<div class="top"><a class="brand" href="index.html"><img src="images/logo.svg" alt="" width="36" height="36"><span>Anmol Gupta<small>Admin dashboard</small></span></a>
 <div class="btn-row"><button class="btn btn-ghost" id="refresh">↻ Refresh</button><button class="btn btn-ghost" id="csv">⬇ Export CSV</button><button class="btn btn-ghost" id="logout">Log out</button></div></div>
 <div class="tabs"><button class="on" data-t="leads">Leads</button><button data-t="analytics">Analytics</button></div>
 <section id="t-leads" style="padding:0">
@@ -93,7 +93,7 @@ function render(){
     var opts=STATUSES.map(function(s){return '<option'+(s===(l.status||'New')?' selected':'')+'>'+s+'</option>'}).join('');
     return '<tr><td>'+ds+'</td><td><strong>'+esc(l.name)+'</strong>'+(l.business?'<br><span class="note">'+esc(l.business)+'</span>':'')+'</td><td>'+esc(l.phone)+'<br><span class="note">'+esc(l.email)+'</span></td><td>'+esc(l.service)+'</td><td><div class="msg">'+esc(l.message)+'</div></td><td class="note">'+esc(l.page)+'<br>'+esc(l.source)+'</td>'+
       '<td><select class="st" data-row="'+l.row+'">'+opts+'</select></td><td><div class="acts">'+
-      (wa?'<a title="WhatsApp" target="_blank" rel="noopener" href="https://wa.me/'+wa+'?text='+encodeURIComponent('Hi '+(l.name||'')+', this is Anmol from Aksh. Thanks for your enquiry about '+(l.service||'your project')+'.')+'">💬</a><a title="Call" href="tel:'+esc(ph)+'">📞</a>':'')+
+      (wa?'<a title="WhatsApp" target="_blank" rel="noopener" href="https://wa.me/'+wa+'?text='+encodeURIComponent('Hi '+(l.name||'')+', this is Anmol. Thanks for your enquiry about '+(l.service||'your project')+'.')+'">💬</a><a title="Call" href="tel:'+esc(ph)+'">📞</a>':'')+
       (l.email?'<a title="Email" href="mailto:'+esc(l.email)+'?subject='+encodeURIComponent('Your free demo request')+'">✉️</a>':'')+'</div></td></tr>';}).join('');
 }
 document.addEventListener('change',function(e){if(e.target.classList.contains('st')){var row=+e.target.dataset.row,st=e.target.value;
@@ -104,7 +104,7 @@ $('logout').onclick=function(){sessionStorage.removeItem(TK);leads=[];showLogin(
 $('refresh').onclick=load;
 $('csv').onclick=function(){var cols=['timestamp','name','phone','email','service','message','business','site','page','source','status','notes'];
   var csv=[cols.join(',')].concat(filtered().map(function(l){return cols.map(function(c){return '"'+String(l[c]==null?'':l[c]).replace(/"/g,'""')+'"'}).join(',')})).join('\n');
-  var a=document.createElement('a');a.href=URL.createObjectURL(new Blob(['\ufeff'+csv],{type:'text/csv'}));a.download='aksh-leads-'+new Date().toISOString().slice(0,10)+'.csv';a.click();};
+  var a=document.createElement('a');a.href=URL.createObjectURL(new Blob(['\ufeff'+csv],{type:'text/csv'}));a.download='anmol-gupta-leads-'+new Date().toISOString().slice(0,10)+'.csv';a.click();};
 document.querySelectorAll('.tabs button').forEach(function(b){b.onclick=function(){document.querySelectorAll('.tabs button').forEach(function(x){x.classList.remove('on')});b.classList.add('on');
   $('t-leads').hidden=b.dataset.t!=='leads';$('t-analytics').hidden=b.dataset.t!=='analytics';
   if(b.dataset.t==='analytics'&&!$('looker').dataset.done){$('looker').dataset.done=1;$('looker').innerHTML=CFG.looker?'<iframe src="'+esc(CFG.looker)+'" title="Looker Studio report" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>':'<div class="kpi"><b style="font-size:1.1rem">No report embedded yet</b><span>Set LOOKER_EMBED_URL in build.py (see admin-setup/README.md), then rebuild.</span></div>';}}});
