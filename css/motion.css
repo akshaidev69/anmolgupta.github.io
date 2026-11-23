@@ -13,6 +13,23 @@ html.cursor-on input,html.cursor-on textarea,html.cursor-on select,html.cursor-o
 
 html.inertia{scroll-behavior:auto}
 
+/* Page scrollbar — slim brand-gradient thumb on a dark track */
+html{scrollbar-width:thin;scrollbar-color:#F0619A #0B1020}
+html::-webkit-scrollbar{width:8px;height:8px}
+html::-webkit-scrollbar-track{background:#0B1020;border-left:1px solid rgba(255,255,255,.06);border-radius:99px}
+html::-webkit-scrollbar-thumb{
+  border-radius:99px;border:2px solid #0B1020;
+  background:linear-gradient(180deg,#FF8A4C 0%,#F0619A 35%,#8B5CF6 70%,#F0619A 85%,#FF8A4C 100%);
+  background-size:100% 300%;background-position:0 0;
+  animation:scrollbar-flow 2.8s linear infinite;
+  box-shadow:0 0 6px rgba(240,97,154,.25)
+}
+html::-webkit-scrollbar-thumb:hover{
+  box-shadow:0 0 10px rgba(255,138,76,.7),0 0 16px rgba(240,97,154,.55),0 0 22px rgba(139,92,246,.4)
+}
+html::-webkit-scrollbar-corner{background:#0B1020}
+@keyframes scrollbar-flow{0%{background-position:0 0}100%{background-position:0 100%}}
+
 html:not(.js) .reveal{opacity:1;transform:none}
 
 .split-w{display:inline-block;overflow:hidden;vertical-align:bottom;padding-bottom:.08em;margin-bottom:-.08em}
@@ -55,6 +72,7 @@ html.motion-ok main > section.sec-in .phero h1{filter:none}
   .cursor-dot,.cursor-glow{display:none!important}
 }
 @media (prefers-reduced-motion:reduce){
+  html::-webkit-scrollbar-thumb{animation:none}
   .scroll-progress,.cursor-dot,.cursor-glow{display:none!important}
   html.cursor-on,html.cursor-on *{cursor:auto!important}
   .split-w,.split-i{display:inline;overflow:visible;transform:none!important;opacity:1!important;transition:none!important}
