@@ -331,3 +331,26 @@ a.inl:hover{color:#fff}
 .lp-x{position:absolute;top:12px;right:12px;width:40px;height:40px;border-radius:50%;border:1px solid var(--line2);background:rgba(255,255,255,.04);color:var(--text);font-size:1.5rem;line-height:1;cursor:pointer}
 .lp-x:hover{background:rgba(255,255,255,.1)}
 .lp-done{text-align:center;padding:20px 0}.lp-done p{color:var(--muted);margin-top:8px}
+
+
+/* Screenshot SEO, blog carousel, quick answers, about facts */
+.quick-answer{margin:18px 0 16px;padding:16px 18px;border:1px solid var(--line2);border-radius:16px;background:linear-gradient(180deg,rgba(139,92,246,.12),rgba(255,138,76,.06));max-width:760px}
+.qa-label{display:block;font-size:.72rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--peach);margin-bottom:6px}
+.quick-answer .answer{margin:0;max-width:none}
+.shots-sec{padding-top:clamp(36px,6vw,64px)}
+.shot-fig{margin:0 0 18px;border-radius:18px;overflow:hidden;background:var(--card);border:1px solid var(--line)}
+.shot-fig img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block}
+.shot-fig figcaption{padding:10px 14px 12px;font-size:.88rem;color:var(--muted)}
+.shot-carousel{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding:4px 2px 16px;margin:0 0 8px}
+.shot-carousel .shot-slide{flex:0 0 min(100%,720px);scroll-snap-align:start}
+.shot-carousel .shot-fig{margin:0}
+.shot-carousel::-webkit-scrollbar{height:8px}
+.shot-carousel::-webkit-scrollbar-thumb{background:var(--line2);border-radius:99px}
+.post-card .pc-thumb{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:14px;margin-bottom:12px;background:var(--card2)}
+.prose .shot-fig,.prose .shot-carousel{margin:0 0 28px}
+.about-facts{padding:clamp(22px,4vw,32px);border-radius:24px;background:var(--card);border:1px solid var(--line)}
+.about-facts dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px 22px;margin-top:22px}
+.about-facts dt{font-size:.72rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--peach);margin-bottom:4px}
+.about-facts dd{color:var(--text);font-weight:600;line-height:1.45}
+.about-facts dd a{color:var(--text);text-decoration:underline;text-underline-offset:3px}
+@media (max-width:700px){.shot-carousel .shot-slide{flex-basis:92%}}
