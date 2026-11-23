@@ -1,0 +1,15 @@
+{
+  "name": "Anmol Gupta",
+  "short_name": "Anmol Gupta",
+  "description": "Anmol Gupta is an AI Engineer and Full Stack Developer in New Delhi, serving India, the USA and the UAE.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#08080f",
+  "theme_color": "#08080f",
+  "icons": [
+    {"src": "/images/favicon-48.png", "sizes": "48x48", "type": "image/png"},
+    {"src": "/images/favicon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "/images/app-icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}
+  ]
+}

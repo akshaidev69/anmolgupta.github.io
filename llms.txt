@@ -1,28 +1,30 @@
 # Anmol Gupta
 
-> Anmol Gupta is an AI engineer and full stack developer in New Delhi, India, serving clients in India, the USA and the UAE. He designs, builds and markets websites, apps, custom software and digital marketing campaigns.
+> Anmol Gupta is an AI Engineer and Full Stack Developer in New Delhi, India, serving clients in India, the USA and the UAE. He designs, builds and markets websites, apps, custom software, CRM, LMS and digital marketing campaigns.
 >
 > Phone: +91 7838738873. Email: anmolg2270@gmail.com.
+>
+> Website: https://iamanmolgupta.com/
 
 ## Services
 
-- [Website Development](https://iamanmolgupta.com/website-development.html): Website development company in India, the USA and the UAE. Fast, mobile-first business websites that bring enquiries. Free demo before you pay; you own the domain, hosting and code.
-- [App Development](https://iamanmolgupta.com/app-development.html): Android and iOS app development company in India, the USA and the UAE. Apps with backend and admin panel, from idea to Play Store and App Store. Milestone payments, you own the code.
-- [iOS App Development](https://iamanmolgupta.com/ios-app-development.html): iOS app development in India, the USA and the UAE. Native and cross-platform iPhone and iPad apps with backend, admin panel and App Store release. Clickable demo first; you own the code.
-- [Software Development](https://iamanmolgupta.com/software-development.html): Custom software development in India, the USA and the UAE: web apps, CRMs, dashboards, admin panels and API integrations built around how your business works. You own the code.
-- [CRM Development](https://iamanmolgupta.com/crm-development.html): Custom CRM development in India, the USA and the UAE. Pipelines, follow-ups, WhatsApp and reports built around your sales process. Clickable demo first; you own the data and the code.
-- [Desktop Software Development](https://iamanmolgupta.com/desktop-software-development.html): Desktop and PC software development in India, the USA and the UAE. Windows business applications for billing, inventory, offline work and internal tools, with a demo first and source code you own.
-- [LMS Development](https://iamanmolgupta.com/lms-development.html): Custom LMS development in India, the USA and the UAE. Course websites, student logins, payments, live classes and certificates for coaches, institutes and corporates. Demo first; you own the code.
-- [E-commerce Development](https://iamanmolgupta.com/ecommerce-development.html): E-commerce website development in India, the USA and the UAE: WooCommerce and custom online stores with payments, COD, shipping and a fast mobile checkout. Free demo first.
-- [UI/UX Design](https://iamanmolgupta.com/ui-ux-design.html): UI/UX design services in India, the USA and the UAE: conversion-focused website and mobile app design, wireframes, high-fidelity screens and clickable prototypes.
-- [Digital Marketing](https://iamanmolgupta.com/digital-marketing.html): Digital marketing services in India, the USA and the UAE: SEO, GEO and AEO, social media, Google Ads, Meta Ads and AI-powered campaigns, with honest reporting and no fake promises.
-- [SEO Services](https://iamanmolgupta.com/seo-services.html): SEO services in India, the USA and the UAE: technical SEO, on-page SEO, local SEO and content that help customers find you on Google. Honest monthly reporting, no fake ranking guarantees.
-- [GEO & AEO Services](https://iamanmolgupta.com/geo-aeo-services.html): GEO and AEO services in India, the USA and the UAE: generative engine optimisation and answer engine optimisation so your business can be cited in ChatGPT, Google AI Overviews and Perplexity.
-- [Google Ads Management](https://iamanmolgupta.com/google-ads-management.html): Google Ads management in India, the USA and the UAE. Search, Performance Max and YouTube campaigns with conversion tracking, honest reporting and an ad account you own. No fake lead guarantees.
-- [Meta Ads Management](https://iamanmolgupta.com/meta-ads-management.html): Meta Ads management in India, the USA and the UAE. Facebook and Instagram campaigns for leads, messages and sales, with creatives, tracking and an ad account you own. No fake lead guarantees.
-- [AI Ads Marketing](https://iamanmolgupta.com/ai-ads-marketing.html): AI-powered ads marketing in India, the USA and the UAE. Smarter Google and Meta campaigns: AI creatives, testing and bidding, with human strategy, tracking and reports. Ad accounts stay in your name.
-- [Social Media Marketing (SMM)](https://iamanmolgupta.com/social-media-marketing.html): Social media marketing (SMM) services in India, the USA and the UAE: Meta (Facebook & Instagram) ads, LinkedIn campaigns, creatives and landing pages focused on leads and sales.
-- [Social Media Management](https://iamanmolgupta.com/social-media-management.html): Social media management and handling services in India, the USA and the UAE: content calendar, post and reel design, captions, scheduling and community replies for Instagram, Facebook and LinkedIn.
+- [Website Development](https://iamanmolgupta.com/website-development.html): Fast, mobile-first business websites that bring enquiries in India, the USA and the UAE. Free homepage demo before you pay. You own the code. Quote in 24h.
+- [App Development](https://iamanmolgupta.com/app-development.html): Android and iOS apps with backend and admin, for India, the USA and the UAE. Clickable demo first, milestone payments, you own the code. Get a free demo.
+- [iOS App Development](https://iamanmolgupta.com/ios-app-development.html): iPhone and iPad apps with backend, admin and App Store release. Clickable demo first; you own the code. Serving India, USA and UAE. Free demo.
+- [Software Development](https://iamanmolgupta.com/software-development.html): Custom web apps, CRMs, dashboards and integrations built around your workflow. Clickable demo first, you own the source code. Quote in 24h.
+- [CRM Development](https://iamanmolgupta.com/crm-development.html): Custom CRM with pipelines, follow-ups and WhatsApp, built around your sales process. Clickable demo first; you own the data and code. Free demo.
+- [Desktop Software Development](https://iamanmolgupta.com/desktop-software-development.html): Windows desktop software for billing, inventory and offline work. Working demo first and source code you own. Get a quote in 24h.
+- [LMS Development](https://iamanmolgupta.com/lms-development.html): Custom LMS with courses, student logins, payments, tests and certificates. Demo first; you own the code. Serving India, USA and UAE. Free demo.
+- [E-commerce Development](https://iamanmolgupta.com/ecommerce-development.html): WooCommerce and custom stores with payments, COD and a fast mobile checkout. Free demo first. Serving India, USA and UAE. Quote in 24h.
+- [UI/UX Design](https://iamanmolgupta.com/ui-ux-design.html): Conversion-focused website and app design: wireframes, high-fidelity screens and a clickable prototype you can test first. Get a free prototype review.
+- [Digital Marketing](https://iamanmolgupta.com/digital-marketing.html): SEO, GEO and AEO, social media, Google Ads and Meta Ads with honest reports. No fake promises. Accounts you own. Get a 24h plan.
+- [SEO Services](https://iamanmolgupta.com/seo-services.html): Technical, on-page and local SEO that helps customers find you on Google. Honest monthly reports, no ranking guarantees. Get a free SEO review.
+- [GEO & AEO Services](https://iamanmolgupta.com/geo-aeo-services.html): GEO and AEO so ChatGPT, Gemini, Perplexity and Google AI Overviews can cite your business. Built on real SEO. Get a free visibility check.
+- [Google Ads Management](https://iamanmolgupta.com/google-ads-management.html): Google Search, Performance Max and YouTube ads with tracking and reports. Your ad account, your budget. No fake lead guarantees. Get a plan.
+- [Meta Ads Management](https://iamanmolgupta.com/meta-ads-management.html): Facebook and Instagram ads for leads, messages and sales. Creatives, tracking, an account you own. No fake lead guarantees. Get a plan.
+- [AI Ads Marketing](https://iamanmolgupta.com/ai-ads-marketing.html): AI-assisted Google and Meta campaigns with human strategy, tracking and reports. Ad accounts stay in your name. Get a 24h plan.
+- [Social Media Marketing (SMM)](https://iamanmolgupta.com/social-media-marketing.html): Meta and LinkedIn campaigns, creatives and landing pages focused on leads and sales. You own the ad account. Get a campaign plan.
+- [Social Media Management](https://iamanmolgupta.com/social-media-management.html): Content calendar, post design, captions, scheduling and replies for Instagram, Facebook and LinkedIn. You approve first. Start this month.
 
 ## Key pages
 
@@ -31,9 +33,22 @@
 - [Blog](https://iamanmolgupta.com/blog.html)
 - [Contact](https://iamanmolgupta.com/contact.html)
 
-## Notes
+## Profiles
+
+- https://www.linkedin.com/in/anmolguptadev
+- https://github.com/akshaidev69
+- https://dev.to/anmol_gupta_18c5d2778bc2c
+- https://medium.com/@anmolg2270
+- https://anmolguptadev.hashnode.dev
+- https://hashnode.com/@anmolgupta-dev
+- https://about.me/a.gupta
+
+## How he works
 
 - Clients see a free demo before paying and own their domain, hosting, ad accounts and source code.
 - Payments are split into milestones.
-- This file is for AI assistants and answer engines (GEO / AEO).
+- This file is for AI assistants and answer engines (GEO / AEO) such as ChatGPT, Gemini, Perplexity, Copilot and Google AI Overviews.
 
+## Full brief
+
+- See also: https://iamanmolgupta.com/llms-full.txt
