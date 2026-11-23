@@ -71,7 +71,8 @@
   }
 
   /* ---------- inertial scrolling (Lenis-style, original) ---------- */
-  var inertia={active:false, current:0, target:0, running:false, self:false};
+  var LERP=0.15, WHEEL_MULT=1.18, ANCHOR_MS=700;
+  var inertia={active:false, current:0, target:0, running:false, self:false, mode:'lerp', lerp:0.15, from:0, t0:0, dur:0};
   function isNestedScroll(el, dy, dx){
     while(el && el!==doc.body && el!==html){
       if(el===qs('.lp-box') || (el.classList&&el.classList.contains('shot-carousel'))){
@@ -94,17 +95,35 @@
   function locked(){
     return doc.body.style.overflow==='hidden' || (qs('.lp')&&qs('.lp').classList.contains('on')) || html.classList.contains('pl');
   }
-  function inertiaStep(){
-    if(!inertia.active||locked()){inertia.running=false;inertia.current=win.scrollY;inertia.target=inertia.current;return}
-    var d=inertia.target-inertia.current;
-    inertia.current+=d*0.145;
-    if(Math.abs(d)<0.4){inertia.current=inertia.target;inertia.running=false}
+  function easeOutCubic(t){return 1-Math.pow(1-t,3)}
+  function inertiaStep(now){
+    if(!inertia.active||locked()){inertia.running=false;inertia.current=win.scrollY;inertia.target=inertia.current;inertia.mode='lerp';return}
+    if(!inertia.running) return;
+    if(inertia.mode==='ease'){
+      var t=Math.min(1,((now||performance.now())-inertia.t0)/inertia.dur);
+      inertia.current=inertia.from+(inertia.target-inertia.from)*easeOutCubic(t);
+      if(t>=1){inertia.current=inertia.target;inertia.running=false;inertia.mode='lerp'}
+    } else {
+      var d=inertia.target-inertia.current;
+      inertia.current+=d*(inertia.lerp||LERP);
+      if(Math.abs(d)<0.35){inertia.current=inertia.target;inertia.running=false}
+    }
     inertia.self=true;
     win.scrollTo(0, inertia.current);
     inertia.self=false;
     if(inertia.running) requestAnimationFrame(inertiaStep);
   }
   function kickInertia(){
+    inertia.mode='lerp';
+    inertia.lerp=LERP;
+    if(!inertia.running){inertia.running=true;inertiaStep()}
+  }
+  function easeTo(y, ms){
+    inertia.mode='ease';
+    inertia.from=inertia.current;
+    inertia.target=clamp(y,0,maxScroll());
+    inertia.t0=performance.now();
+    inertia.dur=ms||ANCHOR_MS;
     if(!inertia.running){inertia.running=true;requestAnimationFrame(inertiaStep)}
   }
   if(useSmooth){
@@ -118,8 +137,8 @@
       e.preventDefault();
       var dy=e.deltaY;
       if(e.deltaMode===1) dy*=16;
-      if(e.deltaMode===2) dy*=maxScroll();
-      inertia.target=clamp(inertia.target+dy, 0, maxScroll());
+      if(e.deltaMode===2) dy*=win.innerHeight;
+      inertia.target=clamp(inertia.target+dy*WHEEL_MULT, 0, maxScroll());
       kickInertia();
     },{passive:false});
     doc.addEventListener('click',function(e){
@@ -134,9 +153,19 @@
       e.preventDefault();
       var nav=qs('.nav');
       var top=dest.getBoundingClientRect().top+win.scrollY - ((nav&&nav.offsetHeight)||72) - 8;
-      inertia.target=clamp(top,0,maxScroll());
-      kickInertia();
+      easeTo(top, ANCHOR_MS);
       if(history.replaceState) history.replaceState(null,'',href);
+    });
+    doc.addEventListener('keydown',function(e){
+      var k=e.key;
+      if(k!=='ArrowUp'&&k!=='ArrowDown'&&k!=='PageUp'&&k!=='PageDown'&&k!=='Home'&&k!=='End'&&k!==' '&&k!=='Spacebar') return;
+      if(e.ctrlKey||e.metaKey||e.altKey) return;
+      var t=e.target, tag=(t&&t.tagName||'').toLowerCase();
+      if(tag==='input'||tag==='textarea'||tag==='select'||(t&&t.isContentEditable)) return;
+      inertia.running=false;
+      inertia.mode='lerp';
+      inertia.current=win.scrollY;
+      inertia.target=inertia.current;
     });
   }
 
