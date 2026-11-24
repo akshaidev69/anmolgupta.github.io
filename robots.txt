@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /admin.html
+Disallow: /admin/
 Disallow: /admin-setup/
 
 User-agent: GPTBot
