@@ -11,10 +11,10 @@
 - [Website Development](https://iamanmolgupta.com/website-development/): Fast, mobile-first business websites that bring enquiries in India, the USA and the UAE. Free homepage demo before you pay. You own the code. Quote in 24h.
 - [App Development](https://iamanmolgupta.com/app-development/): Android and iOS apps with backend and admin, for India, the USA and the UAE. Clickable demo first, milestone payments, you own the code. Get a free demo.
 - [iOS App Development](https://iamanmolgupta.com/ios-app-development/): iPhone and iPad apps with backend, admin and App Store release. Clickable demo first; you own the code. Serving India, USA and UAE. Free demo.
-- [Software Development](https://iamanmolgupta.com/software-development/): Custom web apps, CRMs, dashboards and integrations built around your workflow. Clickable demo first, you own the source code. Quote in 24h.
-- [CRM Development](https://iamanmolgupta.com/crm-development/): Custom CRM with pipelines, follow-ups and WhatsApp, built around your sales process. Clickable demo first; you own the data and code. Free demo.
+- [Software Development](https://iamanmolgupta.com/software-development/): Custom SaaS development in India: MVP in weeks, billing, roles and integrations. Replace costly SaaS tools. Free demo first, quote in 24h.
+- [CRM Development](https://iamanmolgupta.com/crm-development/): Custom CRM for Indian SMBs: pipelines, WhatsApp, reports. See CRM pricing in ₹, compare with Zoho and get a free demo and quote in 24h.
 - [Desktop Software Development](https://iamanmolgupta.com/desktop-software-development/): Windows desktop software for billing, inventory and offline work. Working demo first and source code you own. Get a quote in 24h.
-- [LMS Development](https://iamanmolgupta.com/lms-development/): Custom LMS with courses, student logins, payments, tests and certificates. Demo first; you own the code. Serving India, USA and UAE. Free demo.
+- [LMS Development](https://iamanmolgupta.com/lms-development/): Moodle development services in India: setup, branded theme, plugins, Razorpay, Zoom and mobile app. Free demo first. Get a quote in 24h.
 - [E-commerce Development](https://iamanmolgupta.com/ecommerce-development/): WooCommerce and custom stores with payments, COD and a fast mobile checkout. Free demo first. Serving India, USA and UAE. Quote in 24h.
 - [UI/UX Design](https://iamanmolgupta.com/ui-ux-design/): Conversion-focused website and app design: wireframes, high-fidelity screens and a clickable prototype you can test first. Get a free prototype review.
 - [Digital Marketing](https://iamanmolgupta.com/digital-marketing/): SEO, GEO and AEO, social media, Google Ads and Meta Ads with honest reports. No fake promises. Accounts you own. Get a 24h plan.
@@ -32,6 +32,9 @@
 - [Projects](https://iamanmolgupta.com/projects/)
 - [Blog](https://iamanmolgupta.com/blog/)
 - [Contact](https://iamanmolgupta.com/contact/)
+- [CRM cost calculator](https://iamanmolgupta.com/crm-cost-calculator/): free estimate of custom CRM vs SaaS cost in INR or USD
+- [Website cost calculator](https://iamanmolgupta.com/website-cost-calculator/): free estimate for a landing page, website, store or web app
+- [Moodle branded app](https://iamanmolgupta.com/moodle-branded-app/): own-brand Moodle app options and how to choose
 
 ## Profiles
 
@@ -60,6 +63,8 @@
 - https://issuu.com/anmolguptadev
 - https://devpost.com/anmolg2270
 - https://leetcode.com/u/lc4E0IWFQu/
+- https://daily.dev/anmolguptadev
+- https://www.codementor.io/@akshaidev69
 
 ## How he works
 
